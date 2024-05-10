@@ -23,6 +23,11 @@
       --dark-menu-border-color: rgb(55, 55, 55) !important;
       --dark-menuitem-hover-background-color: rgba(159, 159, 159, 0.35) !important;
    }
+
+   /* Headerbar top border corners rounded */
+   :root[tabsintitlebar][sizemode="normal"]:not([gtktiledwindow="true"]) #nav-bar {
+      border-radius: 12px 12px 0 0 !important;
+   }
 }
 
 @media (prefers-color-scheme:light){
@@ -42,6 +47,11 @@
       --button-hover-bgcolor: #cbd5e1 !important;
       --button-active-bgcolor: #cbd5e1 !important;
       --identity-btn-hover-color: white !important;
+   }
+
+   /* Headerbar top border corners rounded */
+   :root[tabsintitlebar][sizemode="normal"]:not([gtktiledwindow="true"]) #nav-bar {
+      border-radius: 12px 12px 0 0 !important;
    }
 }
 
