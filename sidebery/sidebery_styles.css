@@ -177,6 +177,11 @@
         --tabs-indent: 7px;
     }
 
+    #root.root {
+        --frame-bg: #1a1b26;
+        --toolbar-bg: #242530;
+    }
+
     /* TABS */
 
     .Tab .lvl-wrapper:after {
