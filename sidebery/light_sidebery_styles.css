@@ -161,3 +161,14 @@
 .Tab[data-discarded="true"] .title {
 	opacity: 80%;
 }
+
+
+/* Hide the downward arrow in NavigationBar-top */
+.top-horizontal-box {
+	display: none;
+}
+  
+#root_container:hover .top-horizontal-box {
+	display: flex;
+}
+  
