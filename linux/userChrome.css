@@ -372,8 +372,12 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
 
 
 /* Line up the Windows controls with the rest of the icons in the toolbar. */
-:root:not([sizemode="maximized"]) .titlebar-buttonbox-container {
+:root .titlebar-buttonbox-container {
    padding-top: 3px;
+}
+
+:root .titlebar-buttonbox-container {
+   padding-right: 5px;
 }
 
 .titlebar-buttonbox {
@@ -383,8 +387,8 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
 
 .titlebar-buttonbox * {
    border-radius: 5px;
-   width:25px;
-   height:38px;
+   width:20px;
+   height: 30px;
 }
 
 /* SIDEBERY */
